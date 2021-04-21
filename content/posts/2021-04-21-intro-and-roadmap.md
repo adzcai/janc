@@ -1,13 +1,13 @@
 ---
 template: post
-title: Intro and Roadmap
+title: Roadmap and introduction
 slug: roadmap
 socialImage: /media/karsten-wurth-rafblrbne3o-unsplash.jpg
 draft: false
 date: 2021-04-20T23:56:34.247Z
 description: An introduction to the goals of this blog and the goals of the
   conlang I'm creating.
-category: Conlanging
+category: Meta
 tags:
   - conlanging
   - worldbuilding
@@ -15,11 +15,11 @@ tags:
   - intro
 ---
 
-So here it is! Our first-ever article. Here I want to set a basic framework and some goals for my first ever conlang, which I'll refer to as \<CONLANG> until I come up with a name for it[^1] later down the road.
+So here it is! Our first-ever article. Here I want to set a basic framework and some goals for my first ever conlang, which I'll refer to as "Lorem" until I come up with a name for it[^1] later down the road.
 
 ## Roadmap
 
-Based on most sources I've seen, putting together a language can be grouped into a few main steps:
+Based on most sources I've seen, the process of putting together a language can be grouped into a few main steps. (If you don't know what these mean yet, don't worry, I'll go over them one at a time in future posts!)
 
 * Phonology
   * Phonetic system
@@ -39,7 +39,7 @@ This isn't necessarily in order, and I'll probably come back to revisit, for exa
 
 So there are many different types of conlang, which you can read about in [The Art of Language Invention, Episode 1: Conlang Types](https://youtu.be/Mxmc8zo5Jns?list=PLyfe6tMeBf5W_O3YDqDnk4gqlMODILPpe).
 
-\<CONLANG> is going to be a naturalistic fictional language, meaning that it should be plausible for my (humanoid) fictional species to naturally develop. That means, don't expect it to be entirely consistent! I'll shake things up with irregular verbs and things like that when it makes sense.
+"Lorem" is going to be a naturalistic fictional language, meaning that it should be plausible for my (humanoid) fictional species to naturally develop. That means, don't expect it to be entirely consistent! I'll shake things up with irregular verbs and things like that when it makes sense.
 
 ## Goals
 
@@ -53,4 +53,4 @@ My personal end goal, and the point of this blog, is to create an understandable
 
 Here we go! My first step is to get started on the phonology by put together a phonetic inventory — a list of all the sounds the language is going to have. See you in the next post!
 
-[^1] the coolest name I've ever heard for a script is [Devanagari](https://en.wikipedia.org/wiki/Devanagari), used across the Indian subcontinent for languages such as Hindi, Marathi, Sanskrit, etc, which roughly means "from the abode of divinity". How epic is that!?
+[^1] the coolest name I've ever heard for a script is [Devanagari](https://en.wikipedia.org/wiki/Devanagari), which roughly means "from the abode of divinity", used across the Indian subcontinent for languages such as Hindi, Marathi, Sanskrit, etc. How epic is that!?

@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://janc.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Just Another New Conlanger by Alex Cai',
+  subtitle: 'Interested in linguistics, worldbuilding, or conlanging? Come join me as I create a fantasy world!',
+  copyright: '© All rights reserved. Built with Gatsby.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'G-HE2YFRMD7H',
   useKatex: false,
   menu: [
     {
@@ -20,24 +20,24 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'About this blog',
+      path: '/pages/about-blog'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Alex Cai',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'A jack of all trades is a master of none, yet oftentimes better than a master of one.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'alexandercai@outlook.com',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'pi-guy-in-the-sky',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
