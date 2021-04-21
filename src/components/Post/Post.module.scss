@@ -2,6 +2,17 @@
 @import '../../assets/scss/mixins';
 
 .post {
+  &__content ul {
+    * {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    li {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -34,9 +45,7 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
 }
 
 @include breakpoint-md {
@@ -54,9 +63,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }
