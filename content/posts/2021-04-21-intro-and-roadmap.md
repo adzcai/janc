@@ -14,7 +14,6 @@ tags:
   - roadmap
   - intro
 ---
-# Introduction and Roadmap 
 
 So here it is! Our first-ever article. Here I want to set a basic framework and some goals for my first ever conlang, which I'll refer to as \<CONLANG> until I come up with a name for it[^1] later down the road.
 
@@ -54,4 +53,4 @@ My personal end goal, and the point of this blog, is to create an understandable
 
 Here we go! My first step is to get started on the phonology by put together a phonetic inventory — a list of all the sounds the language is going to have. See you in the next post!
 
-[^1] the coolest name I've ever heard for a script is \[Devanagari](https://en.wikipedia.org/wiki/Devanagari), used across the Indian subcontinent for languages such as Hindi, Marathi, Sanskrit, etc, which roughly means "from the abode of divinity". How epic is that!?
+[^1] the coolest name I've ever heard for a script is [Devanagari](https://en.wikipedia.org/wiki/Devanagari), used across the Indian subcontinent for languages such as Hindi, Marathi, Sanskrit, etc, which roughly means "from the abode of divinity". How epic is that!?
