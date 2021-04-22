@@ -12,10 +12,10 @@
     "lint:js": "eslint --cache --ext .js,.jsx .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint": "concurrently \"yarn lint:js\" \"yarn lint:scss\" \"yarn flow\"",
-    "test": "jest --config ./jest/jest-config.js",
-    "test:coverage": "jest --coverage --config ./jest/jest-config.js",
-    "test:watch": "jest --watch --config ./jest/jest-config.js",
-    "test:update": "jest --updateSnapshot --config ./jest/jest-config.js"
+    "test": "cross-env TZ=utc jest --config ./jest/jest-config.js",
+    "test:coverage": "yarn test --coverage",
+    "test:watch": "yarn test --watch",
+    "test:update": "yarn test --updateSnapshot"
   },
   "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
@@ -97,6 +97,7 @@
     "babel-preset-gatsby": "0.12.3",
     "browserslist": "4.16.4",
     "concurrently": "6.0.2",
+    "cross-env": "^7.0.3",
     "eslint": "7.24.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
