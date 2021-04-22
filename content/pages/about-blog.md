@@ -46,6 +46,7 @@ As I mentioned, I'm no professional (yet); most of my knowledge about linguistic
 * [jan Misali](https://www.youtube.com/channel/UCJOh5FKisc0hUlEeWFBlD-w) on YouTube, especially his [Conlang Critic](https://www.youtube.com/playlist?list=PLuYLhuXt4HrQqnfSceITmv6T_drx1hN84) series
 * [The Language Construction Kit](https://www.zompist.com/kit.html)
 * The [r/conlangs wiki](https://www.reddit.com/r/conlangs/wiki/resources)
+* [Omniglot](https://omniglot.com/index.htm)
 * [Wikipedia](https://en.wikipedia.org/wiki/Category:Linguistics). Need I say more?
 
 

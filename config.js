@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://janc.netlify.com',
   pathPrefix: '/',
-  title: 'Just Another New Conlanger by Alex Cai',
-  subtitle: 'Interested in linguistics, worldbuilding, or conlanging? Come join me as I create a fantasy world!',
+  title: 'Just Another New Conlanger',
+  subtitle: 'A blog about constructed languages, worldbuilding, and linguistics.',
   copyright: '© All rights reserved. Built with Gatsby.',
   disqusShortname: '',
   postsPerPage: 4,
