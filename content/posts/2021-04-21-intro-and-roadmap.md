@@ -15,7 +15,7 @@ tags:
   - intro
 ---
 
-So here it is! Our first-ever article. Here I want to set a basic framework and some goals for my first ever conlang, which I'll refer to as "Lorem" until I come up with a name for it[^1] later down the road.
+So here it is! Our first-ever post. Here I want to set a basic framework and some goals for my first ever conlang, which I'll refer to as "Lorem" until I come up with a name for it[^1] later down the road.
 
 ## Roadmap
 
