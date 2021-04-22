@@ -8,6 +8,16 @@ exports[`Sidebar renders correctly 1`] = `
     className="sidebar__inner"
   >
     <div
+      className="title"
+    >
+      <h1>
+        Test title
+      </h1>
+      <h2>
+        Test subtitle
+      </h2>
+    </div>
+    <div
       className="author"
     >
       <a
