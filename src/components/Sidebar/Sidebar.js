@@ -13,7 +13,9 @@ type Props = {
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu, title, subtitle } = useSiteMetadata();
+  const {
+    author, copyright, menu, title, subtitle
+  } = useSiteMetadata();
 
   return (
     <div className={styles['sidebar']}>
