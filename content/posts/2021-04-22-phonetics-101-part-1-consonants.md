@@ -1,7 +1,7 @@
 ---
 template: post
-title: "Phonetics 101: Part 1: Consonants"
-slug: consonants
+title: Consonants 101
+slug: consonants-101
 socialImage: /media/ipa_chart_2020.svg
 draft: true
 date: 2021-04-22T18:48:10.688Z
@@ -9,9 +9,11 @@ description: "Want to be an expert on the human mouth? Come check out phonetics:
   the study of how we make sound. Warning: fancy words and symbols ahead!"
 category: Phonology
 ---
-Alright, so I think I have a decent idea of how the next few posts are going to go. Since I hope this blog can be a resource for other amateur conlangers, I'll try and go through an introduction to the linguistic topic before diving into the actual conlanging. In this post, we'll start off with an intro to phonetics, walk through the IPA chart, and build a phonemic inventory! By the end of this, you'll be an expert on the average human food hole.
+![]()
 
-Most of this article is based on *The Sounds of the World's Languages* by Ladefoged and Maddieson, a super comprehensive text I've recently started.
+Alright, so I think I have a decent idea of how the next few posts are going to go. Since I hope this blog can be a resource for other amateur conlangers, I'll try and go through an introduction to the linguistic topic before diving into the actual conlanging. In this post, we'll start off with an intro to how consonants work, walk through the IPA chart, and build a phonemic inventory! By the end of this, you'll be an expert on the average human food hole and hopefully be able to decipher strange words like "voiceless palato-alveolar fricative". Let's dive in!
+
+Most of this article is based on *The Sounds of the World's Languages* by Ladefoged and Maddieson, a super comprehensive text I've recently started and would highly recommend for an in-depth investigation of phonetics.
 
 ## What is phonetics?
 
@@ -67,6 +69,12 @@ As we encounter more and more languages, we can begin to get a good sense of whi
 </p>
 </details>
 
+Consonants like \[x], \[k], \[c], and \[d] are formed by three main properties:
+
+1. Place of articulation
+2. Manner of articulation
+3. Voicing
+
 ## Places of articulation
 
 Let's start off with a cross-section of the average human oral cavity!
@@ -85,9 +93,10 @@ There's 5 main active articulators, each with a specific name for sounds that us
 
 1. The lips, which are involved in **labial** gestures.
 2. The tip and blade of the tongue, which make **coronal** articulations.
-    * Motions with the tip are called **apical,** marked with a " ̺", as in [t̺]
-    * Motions with the underside of the tip: **sub-apical**
-    * Motions with the blade (the part slightly behind the tip): **laminal,** marked with a " ̻", as in [t̻]
+
+   * Motions with the tip are called **apical,** marked with a " ̺", as in \[t̺]
+   * Motions with the underside of the tip: **sub-apical**
+   * Motions with the blade (the part slightly behind the tip): **laminal,** marked with a " ̻", as in \[t̻]
 3. The body of the tongue, which is involved in **dorsal** gestures.
 4. The root of the tongue and the epiglottis, which make **radical** articulations.
 5. The glottis, which makes **glottal** articulations.
@@ -100,7 +109,8 @@ There's about nine regions that can be considered as target areas of articulatio
 
 * the lips (labial)
 * the teeth (dental)
-  * marked with a " ̪" under the consonant, e.g. [t̪]
+
+  * marked with a " ̪" under the consonant, e.g. \[t̪]
 * the alveolar ridge, that gummy ledge behind your upper teeth, (alveolar[^1])
 * the sloped part behind it (post-alveolar), the hard palate (palatal)
 * the soft palate, aka velum (velar)
@@ -108,9 +118,7 @@ There's about nine regions that can be considered as target areas of articulatio
 * the pharynx, the part of your throat behind the mouth (pharyngeal)
 * the epiglottis, the flap that makes food go down the right tube (epiglottal)
 
-There's also the glottis, the opening behind your vocal folds (glottal). These nine-plus-one regions are shown in the figure below:
-
-![a diagram with labels showing the labial, dental, alveolar, post-alveolar, palatal, velar, uvular, pharyngeal, epiglottal, and glottal regions of articulation](/media/screen-shot-2021-04-22-at-2.19.27-pm.png "a cross-section of the vocal tract showing the target of articulation")
+There's also the glottis, the opening behind your vocal folds (glottal). These nine-plus-one regions are shown in the figure in the following section
 
 ### Places of articulation
 
@@ -164,7 +172,7 @@ By combining an active articulator and the target region, we end up with around 
     </tr>
     <tr>
       <td>6</td>
-      <td>(Laminal) denti-alveolar**</td>
+      <td>(Laminal) denti-alveolar\*\*</td>
       <td>Tongue blade</td>
       <td>Dental and alveolar</td>
       <td>None</td>
@@ -249,18 +257,74 @@ By combining an active articulator and the target region, we end up with around 
   </tbody>
 </table>
 
-\* marked with a " ̼", as in [t̼]
+\* marked with a " ̼", as in \[t̼]
 
 <details>
 <summary>
-** More precisely, "denti-alveolar" describes sounds where the tip of the tongue is against the teeth and the blade is pressed flat against the alveolar ridge.
+\*\* More precisely, "denti-alveolar" describes sounds where the tip of the tongue is against the teeth and the blade is pressed flat against the alveolar ridge.
 </summary>
-If you're confused by this, don't worry — I was too, and it looks like these sounds are very similar. In her 1991 Ph. D. thesis, \\[Articulatory and Acoustic Properties of Apical and Laminal Articulations](https://escholarship.org/uc/item/52f5v2x2), Sarah Dart did research showing how native speakers of e.g. English and French use these and their apical alveolar equivalents more or less interchangeably.
+If you're confused by this, don't worry — I was too, and it looks like these sounds are very similar. In her 1991 Ph. D. thesis, \\\[Articulatory and Acoustic Properties of Apical and Laminal Articulations](https://escholarship.org/uc/item/52f5v2x2), Sarah Dart did research showing how native speakers of e.g. English and French use these and their apical alveolar equivalents more or less interchangeably.
 </details>
 
-These places of articulation are shown in the two diagrams below, as well as in the diagram under "Passive articulators":
+These places of articulation are shown in the three diagrams below:
+
+![a diagram with labels showing the labial, dental, alveolar, post-alveolar, palatal, velar, uvular, pharyngeal, epiglottal, and glottal regions of articulation](/media/screen-shot-2021-04-22-at-2.19.27-pm.png "a cross-section of the vocal tract showing the target of articulation")
 
 ![two diagrams showing cross-section of front of mouth](/media/screen-shot-2021-04-22-at-4.00.56-pm.png "cross-section of the front of the mouth")
+
+There's a few other terms you might hear when talking about place of articulation. **Alveolo-palatal** (aka **alveopalatal**) consonants, such as <x> in the Mandarin pinyin system, take place with the blade of the tongue against the alveolar ridge and the body of the tongue 
+
+Great! Hopefully after staring at this gobbledegook for long enough and making strange noises with your mouth for longer than you'd like to admit — ahem — you should have a good sense of the different places in the mouth where consonants are made and more or less what they sound like. Now it's time to move on to the next section of what makes a consonant: **manner of articulation.**
+
+## Manner of articulation
+
+While place of articulation tells you where in the mouth a sound is made, **manner of articulation** tells you how much the air is obstructed. Roughly in order from totally obstructed to almost free-flowing, the manners of articulation listed on the 2020 IPA are:
+
+1. Plosive
+
+   * Stop air entirely, and then quickly released in a small puff of air
+   * e.g. \[p], \[b], \[t], \[d], \[k], \[g]
+2. Nasal
+
+   * Air is rerouted through the nasal cavity
+   * e.g. \[m], \[n], \[ŋ]
+3. Trill
+
+   * An articulator is held in place, and air blown past it causes it to vibrate back and forth
+   * e.g. French \[ʀ] or Spanish \[r] or bilabial \[ʙ] like blowing a raspberry or playing a brass instrument
+4. Tap or flap
+
+   * An articulator is thrown against another in a single gesture
+   * E.g. the middle consonant in the American pronunciation of "latter" \[læɾə˞]
+   * The Japanese "r/l" sound is typically also an apical alveolar tap
+5. Fricative
+
+   * Air is almost fully obstructed, creating a hissing sound (aka "turbulent airflow")
+   * \[f], \[v], \[θ], \[ð], \[s], \[z], \[ʃ], \[ʒ], \[x], \[h]
+6. Lateral fricative
+
+   * An l-like sound where the tongue blocks the airflow through the middle of the mouth and air is pushed through the sides to create a hissing noise
+   * \[ɬ], found in Icelandic, Welsh, and Navajo
+7. Approximant
+
+   * No hissing sound; airflow only slightly impeded
+   * \[ɹ], \[j], \[w]
+8. Lateral approximant
+
+   * "l-like" sounds when the tongue obstructs the airflow through the middle of the mouth and redirects it through the sides
+   * \[l]
+
+Alright! Now all that's left is the simplest aspect of consonants: voicing.
+
+### Voicing
+
+Voicing is simply whether or not your vocal chords are vibrating. For example, hold your throat (not too hard please) and say "fan" and "van". You shouldn't feel anything when making the \[f] sound, but you should feel buzzing as you pronounce \[v]. That's how you can tell that \[f] is unvoiced, while \[v] is voiced!
+
+And that's it! Now you have everything you need to understand the consonant section of the IPA. Here it is!
+
+![the consonant chart of the 2020 version of the International Phonetic Alphabet](/media/screen-shot-2021-04-22-at-8.51.14-pm.png "the consonant chart of the 2020 version of the International Phonetic Alphabet")
+
+Hopefully that means now you can figure out the voiceless palato-alveolar fricative!
 
 [^1]:
   Note that "alveolar" only denotes the *front* part of the alveolar ridge, i.e. the flat part right behind your teeth. The sloped part behind the ridge is the post-alveolar region.
