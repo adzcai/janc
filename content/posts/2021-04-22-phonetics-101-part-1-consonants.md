@@ -9,8 +9,6 @@ description: "Want to be an expert on the human mouth? Come check out phonetics:
   the study of how we make sound. Warning: fancy words and symbols ahead!"
 category: Phonology
 ---
-![]()
-
 Alright, so I think I have a decent idea of how the next few posts are going to go. Since I hope this blog can be a resource for other amateur conlangers, I'll try and go through an introduction to the linguistic topic before diving into the actual conlanging. In this post, we'll start off with an intro to how consonants work, walk through the IPA chart, and build a phonemic inventory! By the end of this, you'll be an expert on the average human food hole and hopefully be able to decipher strange words like "voiceless palato-alveolar fricative". Let's dive in!
 
 Most of this article is based on *The Sounds of the World's Languages* by Ladefoged and Maddieson, a super comprehensive text I've recently started and would highly recommend for an in-depth investigation of phonetics.
@@ -19,7 +17,20 @@ Most of this article is based on *The Sounds of the World's Languages* by Ladefo
 
 So language can be communicated in a number of different ways, such as writing, signing, or, most importantly, speaking. When we speak, we move our mouths (and bits further back) and push air through (most of the time) to make sounds. **[Phonetics](https://en.wikipedia.org/wiki/Phonetics)** is simply the study of how we make these sounds, including how we can analyze and classify them! (Not to be confused with **phonology,** the study of how these sounds are actually organized into a language.)
 
-We call the smallest unit of sound a **phone** (or more generally a **segment**), such as the consonant "p" in "pot". Not to be confused with a **phoneme**, a sound which could change one word to another.
+We call the smallest unit of sound a **phone** (or more generally a **segment**), such as the consonant "p" in "pot". (Not to be confused with a **phoneme**, a sound which could change one word to another.) To represent these sounds, we use the International Phonetic Alphabet.
+
+<details>
+<summary>Why not just use the English alphabet?</summary>
+<p>
+First of all, there's a lot of sounds that English simply <em>doesn't have,</em> like retroflex or epiglottal consonants. 
+
+Also, English is actually an <em>extraordinarily</em> awful language when it comes to spelling, simply because our words come from so many different other languages (Latin, French, German, Norse, to name a few) so we never really had a consistent spelling system to begin with. The fact that spelling bees even <em>exist</em> attests to that! (Many places don't have them because the spelling is actually consistent — you know, like it should be.)
+
+The main issue is that there's not a one-to-one mapping between sounds and letters. Heck, even our vowels (a, e, i, o, u) aren't even pure vowels, they're <em>diphthongs</em>, except for "e" ([eɪ], [i], [aɪ], [oʊ], [ju])! In total, English and its various dialects actually has around <em><strong>25 vowel sounds</strong></em>[^1] (12 monophthongs, 8 diphthongs, and 5 triphthongs (like the British "hour" [aʊə])), which is a sheer absolute monstrosity. Japanese only has 5 monophthongs! Beautiful!
+
+The IPA fixes this by having distinct symbols for all sounds which humans can use to distinguish between words (i.e. phonemes, see below),[^2] put together into a [chart](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart#/media/File:IPA_chart_2020.svg). You can find a [clickable one here](https://www.ipachart.com/). Most of the Latin alphabet symbols are pronounced the same way they are in English.
+</p>
+</details>
 
 <details>
 <summary>Phones vs phonemes</summary>
@@ -27,7 +38,6 @@ We call the smallest unit of sound a **phone** (or more generally a **segment**)
 For example, say the words "pun" and "spun", and pay attention to the "p" sound in both of them. Sound identical, right? They actually aren't! Put your hand in front of your mouth and try it again. You should feel a puff of air when you say "pun", but nothing (or very little) when you say the "p" in "spun".
 
 The difference between the aspirated \[pʰ] and the unaspirated \[p] makes no difference in English; you can swap them without changing the word. Therefore, we would consider both of them the same phoneme, /p/. On the other hand, this *would* make a difference in languages such as Chinese, Icelandic, or Hindustani. For example, in Mandarin Chinese, "爸" \[pa] (father) and "怕" \[pʰa] (fear) are different words, and /p/ and /pʰ/ would therefore be considered different phonemes.
-
 </p>
 </details>
 
@@ -327,4 +337,10 @@ And that's it! Now you have everything you need to understand the consonant sect
 Hopefully that means now you can figure out the voiceless palato-alveolar fricative!
 
 [^1]:
+  https://youtu.be/nhOhZ5HSd54
+
+[^2]:
+  Note that I didn't say "all sounds producible by humans", since there's also sounds like what you might find in beatboxing or licking your lips that don't feature at all in human language.
+
+[^3]:
   Note that "alveolar" only denotes the *front* part of the alveolar ridge, i.e. the flat part right behind your teeth. The sloped part behind the ridge is the post-alveolar region.
