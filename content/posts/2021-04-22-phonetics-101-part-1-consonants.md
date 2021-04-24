@@ -3,145 +3,91 @@ template: post
 title: Consonants 101
 slug: consonants-101
 socialImage: /media/ipa_chart_2020.svg
-draft: true
+draft: false
 date: 2021-04-22T18:48:10.688Z
-description: "Want to be an expert on the human mouth? Come check out phonetics:
-  the study of how we make sound. Warning: fancy words and symbols ahead!"
-category: Phonology
+description: "Want to be an expert on the human mouth? What's the difference between consonants and vowels? Come check out phonetics: the study of how we make sound! Warning: fancy words and symbols ahead!"
+category: Phonetics
 ---
-Alright, so I think I have a decent idea of how the next few posts are going to go. Since I hope this blog can be a resource for other amateur conlangers, I'll try and go through an introduction to the linguistic topic before diving into the actual conlanging. In this post, we'll start off with an intro to how consonants work, walk through the IPA chart, and build a phonemic inventory! By the end of this, you'll be an expert on the average human food hole and hopefully be able to decipher strange words like "voiceless palato-alveolar fricative". Let's dive in!
+Hallo Leute! Ich hoffe euch geht's gut. Here's the plan:
 
-Most of this article is based on *The Sounds of the World's Languages* by Ladefoged and Maddieson, a super comprehensive text I've recently started and would highly recommend for an in-depth investigation of phonetics.
+Since I hope this blog can be a resource for other amateur conlangers, the next few posts will focus mainly on some *fundamental linguistics* before diving into the actual conlanging. In this post, we'll start off with an *intro to how consonants work!* By the end of this, you'll be an expert on the average human food hole and hopefully be able to decipher funky terms like "voiceless palato-alveolar fricative". Let's dive in!
+
+![a frame from a cartoon with the character saying "I like your funny words magic man"](/media/funny-words.jpeg "I like your funny words magic man")
+
+(Most of this article is based on *The Sounds of the World's Languages* by Ladefoged and Maddieson, a super comprehensive text I've recently started and would highly recommend for an in-depth investigation of phonetics, as well as [these](https://youtu.be/xMEFr7ghMTg?list=PLduA6tsl3gygfiWmGAhhHb4-HAqP6I63l) [three](https://youtu.be/J3IO5K5ZGB4?list=PLduA6tsl3gygfiWmGAhhHb4-HAqP6I63l) [videos](https://youtu.be/jkfSA4_DCfs?list=PLduA6tsl3gygfiWmGAhhHb4-HAqP6I63l) in Artifexian's conlanging series. Definitely check them out if you're interested in learning more!)
+
 
 ## What is phonetics?
 
-So language can be communicated in a number of different ways, such as writing, signing, or, most importantly, speaking. When we speak, we move our mouths (and bits further back) and push air through (most of the time) to make sounds. **[Phonetics](https://en.wikipedia.org/wiki/Phonetics)** is simply the study of how we make these sounds, including how we can analyze and classify them! (Not to be confused with **phonology,** the study of how these sounds are actually organized into a language.)
+Language can be communicated in a number of different ways, such as writing, signing, or, most importantly in this post, **speaking.** **[Phonetics](https://en.wikipedia.org/wiki/Phonetics)** is simply the study of how we make these sounds, including how we can analyze and classify them![^1] (Not to be confused with **phonology,** the study of how these sounds are actually organized into a language.)
 
-We call the smallest unit of sound a **phone** (or more generally a **segment**), such as the consonant "p" in "pot". (Not to be confused with a **phoneme**, a sound which could change one word to another.) To represent these sounds, we use the International Phonetic Alphabet.
+We call the smallest unit of sound a **phone** (not to be confused with a **phoneme**),[^2] such as [l], [e], and [t] in "let". To represent these sounds, we use the International Phonetic Alphabet, which has symbols for almost all sounds produced by humans.[^3] These symbols are summarized [in the IPA chart](https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/pdfs/IPA_Kiel_2020_full.pdf), which this post will hopefully help you understand!
 
-<details>
-<summary>Why not just use the English alphabet?</summary>
-<p>
-First of all, there's a lot of sounds that English simply <em>doesn't have,</em> like retroflex or epiglottal consonants. 
+We can categorize these phones as either **consonants** or **vowels.** Today, we'll be talking about consonants, like \[r], \[p], and \[g], which are formed when air from the lungs is blocked off to some degree. Consonants are defined by three main properties:
 
-Also, English is actually an <em>extraordinarily</em> awful language when it comes to spelling, simply because our words come from so many different other languages (Latin, French, German, Norse, to name a few) so we never really had a consistent spelling system to begin with. The fact that spelling bees even <em>exist</em> attests to that! (Many places don't have them because the spelling is actually consistent — you know, like it should be.)
+1. <strong>Place of articulation,</strong>
+2. <strong>Manner of articulation,</strong>
+3. and <strong>Voicing.</strong>
 
-The main issue is that there's not a one-to-one mapping between sounds and letters. Heck, even our vowels (a, e, i, o, u) aren't even pure vowels, they're <em>diphthongs</em>, except for "e" ([eɪ], [i], [aɪ], [oʊ], [ju])! In total, English and its various dialects actually has around <em><strong>25 vowel sounds</strong></em>[^1] (12 monophthongs, 8 diphthongs, and 5 triphthongs (like the British "hour" [aʊə])), which is a sheer absolute monstrosity. Japanese only has 5 monophthongs! Beautiful!
+Let's get started!
 
-The IPA fixes this by having distinct symbols for all sounds which humans can use to distinguish between words (i.e. phonemes, see below),[^2] put together into a [chart](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart#/media/File:IPA_chart_2020.svg). You can find a [clickable one here](https://www.ipachart.com/). Most of the Latin alphabet symbols are pronounced the same way they are in English.
-</p>
-</details>
 
-<details>
-<summary>Phones vs phonemes</summary>
-<p>
-For example, say the words "pun" and "spun", and pay attention to the "p" sound in both of them. Sound identical, right? They actually aren't! Put your hand in front of your mouth and try it again. You should feel a puff of air when you say "pun", but nothing (or very little) when you say the "p" in "spun".
+## 1. Place of articulation
 
-The difference between the aspirated \[pʰ] and the unaspirated \[p] makes no difference in English; you can swap them without changing the word. Therefore, we would consider both of them the same phoneme, /p/. On the other hand, this *would* make a difference in languages such as Chinese, Icelandic, or Hindustani. For example, in Mandarin Chinese, "爸" \[pa] (father) and "怕" \[pʰa] (fear) are different words, and /p/ and /pʰ/ would therefore be considered different phonemes.
-</p>
-</details>
-
-<details>
-<summary>But the inside of the mouth is continuous. How can we categorize sounds into distinct categories?
-</summary>
-<p>
-To answer this, let's consider two languages A and B. Let's say each of them have three distinct vowels that go from high to low (aka "close" to "open") in the mouth: language A has A1, A2, A3, and language B has B1, B2, B3.
-
-If we get a language A speaker and a language B speaker together, and we find out that A2 is equivalent to B1, and A3 is equivalent to B2, then there must be at least four different vowels:
-
-<table>
-<tbody>
-<tr>
-<td>1</td>
-<td>A1</td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td>A2</td>
-<td>B1</td>
-</tr>
-<tr>
-<td>3</td>
-<td>A3</td>
-<td>B2</td>
-</tr>
-<tr>
-<td>4</td>
-<td></td>
-<td>B3</td>
-</tr>
-</tbody>
-</table>
-
-As we encounter more and more languages, we can begin to get a good sense of which sounds humans can distinguish.
-
-</p>
-</details>
-
-Consonants like \[x], \[k], \[c], and \[d] are formed by three main properties:
-
-1. Place of articulation
-2. Manner of articulation
-3. Voicing
-
-## Places of articulation
-
-Let's start off with a cross-section of the average human oral cavity!
+Here's a cross-section of the human oral cavity:
 
 ![a cross-section of the human oral cavity](/media/mouth.jpeg "a cross-section of the human oral cavity")
 
 Firstly — the tongue is *huge,* isn't it!?
 
-Let's start with consonants, which are made when you block off air from the lungs.
-
 Anyways, in the above picture, you'll see a lot of things that can move, and a lot of places they can go. We call the thing that moves the **active articulator**, and the place it goes the **articulatory target region** (sometimes called the **passive articulator**). Together, they form a **place of articulation** that determines where a consonant is made.
+
 
 ### Active articulators
 
-There's 5 main active articulators, each with a specific name for sounds that use them (I use the terms "articulation" and "gesture" interchangeably):
+There's *5* main active articulators, each with a specific name for sounds that use them (and my personal suggestion for a mnemonic to remember their names):
 
-1. The lips, which are involved in **labial** gestures.
-2. The tip and blade of the tongue, which make **coronal** articulations.
-
-   * Motions with the tip are called **apical,** marked with a " ̺", as in \[t̺]
-   * Motions with the underside of the tip: **sub-apical**
-   * Motions with the blade (the part slightly behind the tip): **laminal,** marked with a " ̻", as in \[t̻]
-3. The body of the tongue, which is involved in **dorsal** gestures.
-4. The root of the tongue and the epiglottis, which make **radical** articulations.
-5. The glottis, which makes **glottal** articulations.
+1. The lips, which are involved in **labial** articulations (think "lip"-ial);
+2. The tip and blade of the tongue, which make **coronal** articulations (think of this region as the "corona" / outer part of your tongue). Specifically, there are names for each part of this region:
+   * *Tip of the tongue:* **apical** (think "apex")
+   * *Underside of the tip:* **sub-apical**
+   * *Blade (the part slightly behind the tip):* **laminal** ("lamina" = a thin plate or scale)
+3. The body of the tongue, which is involved in **dorsal** articulations ("dorsal" = near the back, like a fish's dorsal fin);
+4. The root of the tongue and the epiglottis, which make **radical** articulations ("radical" = relating to the root);
+5. And the glottis, which makes **glottal** articulations (think of the British pronunciation of "glottal" as "glo-al" and you've got it).
 
 ![a diagram with labels indicating the lower lip, the tip and blade of the tongue, the body of the tongue, the root of the tongue, and the glottis](/media/screen-shot-2021-04-22-at-2.07.23-pm.png "sagittal section of the vocal tract")
 
+So that's it for the active articulators! But they need to go somewhere in order to block air and produce a consonantal sound, which brings us to:
+
+
 ### Passive articulators
 
-There's about nine regions that can be considered as target areas of articulation:
+There's about *9 (+ 1)* regions where you can thrust those active articulators:
 
-* the lips (labial)
-* the teeth (dental)
+* the lips (**labial**),
+* the teeth (**dental**),
+* the alveolar ridge, that gummy ledge behind your upper teeth (**alveolar**),[^4]
+* the sloped part behind it (**post-alveolar**),
+* the hard palate, most of the roof of your mouth (**palatal**),
+* the soft palate, the back of the roof of your mouth, aka velum (**velar**),
+* the uvula (**uvular**),
+* the pharynx, the part of your throat behind the mouth (**pharyngeal**),
+* and the epiglottis, the flap that makes food go down the right tube (**epiglottal**).
 
-  * marked with a " ̪" under the consonant, e.g. \[t̪]
-* the alveolar ridge, that gummy ledge behind your upper teeth, (alveolar[^1])
-* the sloped part behind it (post-alveolar), the hard palate (palatal)
-* the soft palate, aka velum (velar)
-* the uvula (uvular)
-* the pharynx, the part of your throat behind the mouth (pharyngeal)
-* the epiglottis, the flap that makes food go down the right tube (epiglottal)
+Finally, there's also the glottis, the opening between your vocal folds (**glottal**).
 
-There's also the glottis, the opening behind your vocal folds (glottal). These nine-plus-one regions are shown in the figure in the following section
+By moving one (or more) of the five active articulators to one (or more) of the ten target regions, we end up with around *17* possible combinations where articulators can be brought together, forming the **places of articulation** for consonants:
 
-### Places of articulation
-
-By combining an active articulator and the target region, we end up with around 17 possible combinations where articulators can be brought together, which about 12 of which are commonly seen:
-
+<div style="overflow-x: auto;">
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th>Label</th>
       <th>Place of articulation</th>
       <th>Active articulator</th>
       <th>Target region</th>
-      <td>English examples</td>
+      <th>English examples</th>
     </tr>
   </thead>
   <tbody>
@@ -150,18 +96,18 @@ By combining an active articulator and the target region, we end up with around 
       <td>Bilabial</td>
       <td>Lower lip</td>
       <td>Labial</td>
-      <td>/m/, /p/, /b/, /w/</td>
+      <td>/m/ as in "mat", /p/ as in "pat", /b/ as in "bat", /w/ as in "wet"</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Labiodental</td>
       <td>Lower lip</td>
       <td>Dental</td>
-      <td>/f/, /v/</td>
+      <td>/f/ as in "fat", /v/ as in "vat"</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Linguo-labial*</td>
+      <td>Linguo-labial</td>
       <td>Tongue blade</td>
       <td>Labial</td>
       <td>None</td>
@@ -178,11 +124,11 @@ By combining an active articulator and the target region, we end up with around 
       <td>(Apical) dental</td>
       <td>Tongue tip</td>
       <td>Dental</td>
-      <td>/θ/, /ð/</td>
+      <td>/θ/ as in "think", /ð/ as in "that"</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>(Laminal) denti-alveolar\*\*</td>
+      <td>(Laminal) denti-alveolar<sup id="fnref-5"><a href="#fn-5" class="footnote-ref">5</a></sup></td>
       <td>Tongue blade</td>
       <td>Dental and alveolar</td>
       <td>None</td>
@@ -192,14 +138,14 @@ By combining an active articulator and the target region, we end up with around 
       <td>Apical alveolar</td>
       <td>Tongue tip</td>
       <td>Alveolar</td>
-      <td>/n/, /t/, /d/, /s/, /z/, /ɹ/, /l/</td>
+      <td>/n/ as in "not", /t/ as in "top", /d/ as in "dot", /s/ as in "sing", /z/ as in "zip", /l/ as in "love"</td>
     </tr>
     <tr>
       <td>8</td>
       <td>Laminal alveolar</td>
       <td>Tongue blade</td>
       <td>Alveolar</td>
-      <td>None*</td>
+      <td>None</td>
     </tr>
     <tr>
       <td>9</td>
@@ -213,7 +159,7 @@ By combining an active articulator and the target region, we end up with around 
       <td>(Laminal) palato-alveolar</td>
       <td>Tongue blade</td>
       <td>Post-alveolar</td>
-      <td>/ʃ/, /ʒ/</td>
+      <td>/ɹ/ as in "row", /ʃ/ as in "ship", /ʒ/ as in "measure"</td>
     </tr>
     <tr>
       <td>11</td>
@@ -225,23 +171,23 @@ By combining an active articulator and the target region, we end up with around 
     <tr>
       <td>12</td>
       <td>Palatal</td>
-      <td>Front of tongue</td>
+      <td>Body of tongue</td>
       <td>Palatal</td>
-      <td>/j/</td>
+      <td>/j/ as in "yes"</td>
     </tr>
     <tr>
       <td>13</td>
       <td>Velar</td>
       <td>Back of tongue</td>
       <td>Velar</td>
-      <td>/k/, /g/</td>
+      <td>/k/ as in "cake", /g/ as in "good", /ŋ/ as in "sing", /x/ as in "loch" (from Welsh loanwords), /w/ as in "wash"</td>
     </tr>
     <tr>
       <td>14</td>
       <td>Uvular</td>
       <td>Back of tongue</td>
       <td>Uvular</td>
-      <td>None; found in e.g. French, German, and African, Semitic, and Native American languages</td>
+      <td>None; e.g. /ʀ/ in French "restaurant"</td>
     </tr>
     <tr>
       <td>15</td>
@@ -262,85 +208,225 @@ By combining an active articulator and the target region, we end up with around 
       <td>Glottal</td>
       <td>Vocal folds</td>
       <td>Glottal</td>
-      <td>/h/, /ʔ/</td>
+      <td>/h/ as in "hope", /ʔ/ as in British "bottle" (the pause between the two syllables)</td>
     </tr>
   </tbody>
 </table>
+</div>
 
-\* marked with a " ̼", as in \[t̼]
+Usually, the active articulators lie along the bottom of your vocal tract, and move to the passive articulators along the top. These places of articulation are shown by the arrows in the diagrams below:
 
-<details>
-<summary>
-\*\* More precisely, "denti-alveolar" describes sounds where the tip of the tongue is against the teeth and the blade is pressed flat against the alveolar ridge.
-</summary>
-If you're confused by this, don't worry — I was too, and it looks like these sounds are very similar. In her 1991 Ph. D. thesis, \\\[Articulatory and Acoustic Properties of Apical and Laminal Articulations](https://escholarship.org/uc/item/52f5v2x2), Sarah Dart did research showing how native speakers of e.g. English and French use these and their apical alveolar equivalents more or less interchangeably.
-</details>
+![a diagram with labels showing the labial, dental, alveolar, post-alveolar, palatal, velar, uvular, pharyngeal, epiglottal, and glottal regions of articulation](/media/screen-shot-2021-04-22-at-2.19.27-pm.png "a cross-section of the vocal tract showing targets of articulation")
 
-These places of articulation are shown in the three diagrams below:
+![two diagrams showing cross-section of front of mouth](/media/screen-shot-2021-04-22-at-4.00.56-pm.png "cross-sections of the front of the mouth")
 
-![a diagram with labels showing the labial, dental, alveolar, post-alveolar, palatal, velar, uvular, pharyngeal, epiglottal, and glottal regions of articulation](/media/screen-shot-2021-04-22-at-2.19.27-pm.png "a cross-section of the vocal tract showing the target of articulation")
+You might be a bit surprised to see above that /w/ is a velar consonant. Isn't it pronounced with the lips? Actually, /w/ is a great example of a consonant where the air is blocked in multiple places at once! These consonants with *two* places of articulation come in two different kinds:
+  * If air is blocked to the same degree in both locations, the consonant is called **"doubly articulated".** These consonants occur mainly in Western and Central Africa.
+  * More commonly, the consonant is *mainly* produced in one place, with **coarticulation** in a second place that obstructs the air less. Specifically, /w/ is a velar consonant with bilabial coarticulation.
+    * Theoretically, we can coarticulate any consonant by labializing, palatalizing, velarizing, or pharyngealizing it, using the respective superscripts in e.g. [kʷ] which appears in Cantonese, [ʃʲ] (aka [ɕ], the voiceless palato-alveolar sibilant) as in Chinese "xuě", [lˠ] as in "full", or [tˤ] which appears in Arabic.
 
-![two diagrams showing cross-section of front of mouth](/media/screen-shot-2021-04-22-at-4.00.56-pm.png "cross-section of the front of the mouth")
+Hopefully after messing around enough with your tongue, you should have a good sense of the different places in the mouth where consonants can be made. Now it's time to move on to the next section of what makes a consonant: **manner of articulation.**
 
-There's a few other terms you might hear when talking about place of articulation. **Alveolo-palatal** (aka **alveopalatal**) consonants, such as <x> in the Mandarin pinyin system, take place with the blade of the tongue against the alveolar ridge and the body of the tongue 
 
-Great! Hopefully after staring at this gobbledegook for long enough and making strange noises with your mouth for longer than you'd like to admit — ahem — you should have a good sense of the different places in the mouth where consonants are made and more or less what they sound like. Now it's time to move on to the next section of what makes a consonant: **manner of articulation.**
+## 2. Manner of articulation
 
-## Manner of articulation
+While place of articulation tells you where in the mouth a sound is made, **manner of articulation** tells you *how much* the air is obstructed. Roughly in order from totally obstructed to almost free-flowing, the manners of articulation listed on the 2020 IPA are (see above for the pronunciation of the symbols):
 
-While place of articulation tells you where in the mouth a sound is made, **manner of articulation** tells you how much the air is obstructed. Roughly in order from totally obstructed to almost free-flowing, the manners of articulation listed on the 2020 IPA are:
-
-1. Plosive
+1. **Plosive (aka stop)**
 
    * Stop air entirely, and then quickly released in a small puff of air
    * e.g. \[p], \[b], \[t], \[d], \[k], \[g]
-2. Nasal
+2. **Nasal**
 
    * Air is rerouted through the nasal cavity
    * e.g. \[m], \[n], \[ŋ]
-3. Trill
+3. **Trill**
 
    * An articulator is held in place, and air blown past it causes it to vibrate back and forth
-   * e.g. French \[ʀ] or Spanish \[r] or bilabial \[ʙ] like blowing a raspberry or playing a brass instrument
-4. Tap or flap
+   * e.g. French \[ʀ] or Spanish \[r] or bilabial \[ʙ] like blowing a raspberry with the lips
+4. **Tap or flap**
 
    * An articulator is thrown against another in a single gesture
-   * E.g. the middle consonant in the American pronunciation of "latter" \[læɾə˞]
-   * The Japanese "r/l" sound is typically also an apical alveolar tap
-5. Fricative
+   * e.g. the middle consonant in the American pronunciation of "latter" \[læɾə˞] or the Japanese "r" sound by most speakers
+5. **Fricative**
 
    * Air is almost fully obstructed, creating a hissing sound (aka "turbulent airflow")
-   * \[f], \[v], \[θ], \[ð], \[s], \[z], \[ʃ], \[ʒ], \[x], \[h]
-6. Lateral fricative
+   * e.g. \[f], \[v], \[θ], \[ð], \[s], \[z], \[ʃ], \[ʒ], \[x], \[h]
+6. **Lateral fricative**
 
    * An l-like sound where the tongue blocks the airflow through the middle of the mouth and air is pushed through the sides to create a hissing noise
-   * \[ɬ], found in Icelandic, Welsh, and Navajo
-7. Approximant
+   * e.g. \[ɬ], found in Icelandic, Welsh, and Navajo
+7. **Approximant**
 
    * No hissing sound; airflow only slightly impeded
-   * \[ɹ], \[j], \[w]
-8. Lateral approximant
+   * Aka semivowels/semiconsonants/glides (but these terms are not universally agreed upon)
+   * e.g. \[ɹ], \[j], \[w]
+8. **Lateral approximant**
 
-   * "l-like" sounds when the tongue obstructs the airflow through the middle of the mouth and redirects it through the sides
-   * \[l]
+   * "l-like" sounds when the tongue blocks airflow through the middle of the mouth and redirects it through the sides
+   * e.g. \[l]
 
-Alright! Now all that's left is the simplest aspect of consonants: voicing.
+Vowels would be at the very bottom of this list, where the air is essentially unimpeded, but we'll save those for another post. Here are some other common terms related to manner of articulation:
 
-### Voicing
+* **Sibilants** are a specific kind of fricative (hissing sound) that have higher amplitude and pitch because the air is forced against the teeth, e.g. /s/, /z/, /ʃ/, and /ʒ/. They sound more intense, which is why they're used often to get people's attention, e.g. "psst!" and "shhh!"
+* You'll also hear about **affricates,** like the "ch" [tʃ] in "cheap" or the "zh" / "j" [dʒ] in "jeep". These are made when you block the sound with a stop and then transition into a fricative.
+* You can also group **lateral** (l-like) and **rhotic** (r-like) consonants into **liquid consonants.** Some languages allow these to take the place of a vowel at the nucleus of a syllable, as evidenced by the Czech/Slovak tonguetwister [strč prst skrz krk](https://en.wikipedia.org/wiki/Str%C4%8D_prst_skrz_krk).
 
-Voicing is simply whether or not your vocal chords are vibrating. For example, hold your throat (not too hard please) and say "fan" and "van". You shouldn't feel anything when making the \[f] sound, but you should feel buzzing as you pronounce \[v]. That's how you can tell that \[f] is unvoiced, while \[v] is voiced!
+Alright, so that's it for place and manner of articulation! Now all that's left is voicing.
 
-And that's it! Now you have everything you need to understand the consonant section of the IPA. Here it is!
+
+## 3. Voicing
+
+**Voicing** is simply whether or not your vocal chords are vibrating. For example, hold your throat (not too hard please) and say "fan" and "van". You shouldn't feel anything when making the \[f] sound, but you should feel buzzing as you pronounce \[v]. That's how you can tell that \[f] is unvoiced, while \[v] is voiced!
+
+Then you might ask: well, how can we tell the difference between them when you whisper, since whispering eliminates voicing? For example, try whispering the words "fan" and "van". You should still be able to tell the difference, even though they've both become unvoiced bilabial plosives!
+
+This is because the distinction between /f/ and /v/ in English *isn't* just voicing; it's actually called a [**fortis-lenis**](https://en.wikipedia.org/wiki/Fortis_and_lenis) (strong-weak) distinction, which describes the amount of energy that goes into the sound. In English, all of the stops and fricatives (except for /x/ and /h/) come in fortis-lenis pairs.[^6]
+
+One of the distinctions between fortis and lenis consonants in English is **aspiration.** Hold your hand up in front of your mouth as you whisper "fan" and "van". You should feel a little puff of air when you pronounce /f/, but nothing (or very little) as you pronounce /v/. In the IPA, we mark that puff with a superscript h, as in [pʰ] in "pick" vs [p] in "spot".
+
+There's also diacritics we can add to modify the voicing of consonants and sounds. For example, we can add:
+
+* The dot in [n̥] to make a sound voiceless, like in Icelandic;
+* The dots in [a̤] to indicate a breathy voice (maybe avoid making this one in public);
+* The wiggle in [a̰] to indicate a creaky voice, also known as vocal fry. Try speaking in a very low pitch and you should be able to hear each individual vibration of your vocal folds.
+
+In the IPA chart, all of the symbols on the left in a cell are unvoiced, and the ones on the right are all voiced.
+
+So after staring at this gobbledegook for long enough and making strange noises with your mouth for longer than you'd like to admit — ahem — you should know all you need to decipher each consonant in the IPA!
+
+
+## IPA Consonants
+
+Here is the chart at long last:
 
 ![the consonant chart of the 2020 version of the International Phonetic Alphabet](/media/screen-shot-2021-04-22-at-8.51.14-pm.png "the consonant chart of the 2020 version of the International Phonetic Alphabet")
 
-Hopefully that means now you can figure out the voiceless palato-alveolar fricative!
+You can also find a [clickable chart here](https://www.ipachart.com/) that will show you what these symbols sound like! As a little self-test of sorts, pick a symbol on the chart, see if you can guess its pronunciation based on everything you know, and then click the chart to see how close you were.
+
+Typically, to describe a sound, we say the voicing, then the place of articulation, and then the manner of articulation. For example, now you should be able to pronounce the unvoiced palato-alveolar fricative from the start of this post! (Hint: it's just the [ʃ] sound in "ship".)
+
+
+## Conclusion
+
+Well, that's it for consonants 101! Actually, in hindsight, I probably put *way* more here than is strictly necessary to know about consonants at all. But on the other hand, there's a ton of stuff I haven't even included, like ejectives and clicks, which are less common in human language and which I don't plan to include in my conlang since they'd be inconvenient for most people to pronounce. You can learn more about them [in this Artifexian video](https://youtu.be/4e6DLwEVb6I?list=PLduA6tsl3gygfiWmGAhhHb4-HAqP6I63l)!
+
+Just to recap:
+* **Consonants** are a type of sound made by the obstruction of air. They're defined by:
+  * Where they're made (**place of articulation**),
+  * How much air passes through (**manner of articulation**),
+  * And whether or not they're **voiced.**
+
+Thanks for sticking around! This was a super long post, and don't worry, as soon as we get into the actual conlanging, I promise we'll dig into the fantastical, exciting worldbuilding stuff I know you're waiting for.
+
+Next time, we'll cover vowels, which should be a much shorter post, and then after that, we're all set to put together the phonetic inventory for the conlang!
+
+See you around! Tschüss!
+
+
+<!-- FOOTNOTES -->
 
 [^1]:
-  https://youtu.be/nhOhZ5HSd54
+   <details>
+     <summary>But the inside of the mouth is continuous. How can we categorize sounds into distinct categories?
+     </summary>
+     <p>
+       To answer this, let's consider two languages A and B. Let's say each of them have three distinct vowels that go from
+       high to low (aka "close" to "open") in the mouth: language A has A1, A2, A3, and language B has B1, B2, B3.
+
+       Let's say we get a language A speaker and a language B speaker together, and we find out that A2 is equivalent to B1, and
+       A3 is equivalent to B2.
+       
+       Then, that tells us that there must be at least four different vowels:
+     </p>
+
+     <table>
+       <tbody>
+         <tr>
+           <td>1</td>
+           <td>A1</td>
+           <td></td>
+         </tr>
+         <tr>
+           <td>2</td>
+           <td>A2</td>
+           <td>B1</td>
+         </tr>
+         <tr>
+           <td>3</td>
+           <td>A3</td>
+           <td>B2</td>
+         </tr>
+         <tr>
+           <td>4</td>
+           <td></td>
+           <td>B3</td>
+         </tr>
+       </tbody>
+     </table>
+
+     <p>
+     As we encounter more and more languages, we can begin to get a good sense of which sounds humans can distinguish.
+     </p>
+   </details>
 
 [^2]:
-  Note that I didn't say "all sounds producible by humans", since there's also sounds like what you might find in beatboxing or licking your lips that don't feature at all in human language.
+  <details>
+    <summary>Phones [] vs phonemes //</summary>
+    <p>
+      For example, say the words "pun" and "spun", and pay attention to the "p" sound in both of them. Sound identical,
+      right? They actually aren't! Put your hand in front of your mouth and try it again. You should feel a puff of air
+      when you say "pun", but nothing (or very little) when you say the "p" in "spun".
+
+      The difference between the aspirated \[pʰ] and the unaspirated \[p] makes no difference in English; you can swap
+      them without changing the word. Therefore, we would consider both of them the same phoneme, /p/. On the other hand,
+      this *would* make a difference in languages such as Chinese, Icelandic, or Hindustani. For example, in Mandarin
+      Chinese, "爸" \[pa] (father) and "怕" \[pʰa] (fear) are different words, and /p/ and /pʰ/ would therefore be
+      considered different phonemes.
+
+      In IPA, we use brackets [] for phones and // for phonemes.
+    </p>
+  </details>
 
 [^3]:
-  Note that "alveolar" only denotes the *front* part of the alveolar ridge, i.e. the flat part right behind your teeth. The sloped part behind the ridge is the post-alveolar region.
+  Note that I didn't say "all sounds producible by humans", since there's also sounds like what you might find in beatboxing or licking your lips that don't feature at all in human language. Also,
+  <details>
+    <summary>Why not just use the English alphabet?</summary>
+    <p>
+      First of all, there's a lot of sounds that English simply <em>doesn't have,</em> like retroflex or epiglottal
+      consonants.
+
+      Also, English is actually an <em>extraordinarily</em> awful language when it comes to spelling, simply because our
+      words come from so many different other languages (Latin, French, German, Norse, to name a few) so we never really
+      had a consistent spelling system to begin with. The fact that spelling bees even <em>exist</em> attests to that!
+      (Many places don't have them because the spelling is actually consistent — you know, like it should be.)
+
+      The main issue is that there's not a one-to-one mapping between sounds and letters. Heck, even our vowels (a, e, i,
+      o, u) aren't even pure vowels, they're <em>diphthongs</em>, except for "e" ([eɪ], [i], [aɪ], [oʊ], [ju])! In total,
+      English and its various dialects actually has around <a href="https://youtu.be/nhOhZ5HSd54"><em>25 vowel sounds</em></a> (12 monophthongs,
+      8 diphthongs, and 5 triphthongs (like the British "hour" [aʊə])), which is a sheer absolute monstrosity. Japanese
+      only has 5 monophthongs! Beautiful![^7]
+
+      The IPA fixes this by having distinct symbols for all sounds which humans can use to distinguish between words (i.e.
+      phonemes). That being said, the IPA is meant to synergize with the Latin alphabet, so most of the Latin alphabet symbols are pronounced the same way they are in English.
+    </p>
+  </details>
+
+[^4]:
+  Note that "alveolar" only denotes the *front* part of the alveolar ridge, i.e. the flat part right behind your teeth. The sloped part *behind* the ridge is the *post-alveolar* region.
+
+[^5]:
+    More precisely, "denti-alveolar" describes sounds where the tip of the tongue is against the teeth and the blade is pressed flat against the alveolar ridge. These sounds are very similar to their apical alveolar equivalents. In her 1991 Ph. D. thesis, [Articulatory and Acoustic Properties of Apical and Laminal Articulations](https://escholarship.org/uc/item/52f5v2x2), Sarah Dart did research showing how native speakers of some languages including English and French use these and their apical alveolar equivalents somewhat interchangeably.
+
+[^6]:
+  The way different languages deal with this aspirated/unaspirated, voiced/unvoiced distinction is super interesting! For example:
+  
+  * English uses fortis (aspirated + unvoiced) / lenis (unaspirated + voiced) as described above;
+  * French has no aspirated consonants, so the difference between French /p/ and /b/ is just voicing;
+  * Chinese makes no distinction between voiced/unvoiced, and instead uses /pʰ/ and /p/ as its two bilabial stop consonants;
+  * And Hindustani is especially detailed, with four distinct phonemes /p/, /pʰ/, /b/, and /bʰ/!
+
+[^7]:
+  Is this a footnote within a footnote? Yes. Anyways...
+
+  "Wait", you might be asking if you speak Japanese, "but there *are* diphthongs, like in "家" (/ie/, "house")"! I should clarify: here I'm talking about diphthongs *phonologically,* which is defined as the case when two vowels share the nucleus of a single syllable (I'll talk more about this in my post on phonotactics later). In this case, /ie/ would typically be considered as two distinct syllables (although this is a bit of a poor example since it's debated whether or not Japanese has syllables at all, and instead uses "mora" to measure timing — *ohmygoshihavetowriteapostaboutthisnow*). Labelling "consecutive distinct vowels" as a diphthong or triphthong doesn't tell us anything about how vowels are actually used in a language.
