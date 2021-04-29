@@ -142,7 +142,7 @@ My goals for my first ever conlang are:
 
 1. **It should seem as realistic as possible.** This includes being at a reasonable level of difficulty and not being entirely regular. I should be able to look at it and say, hey, that's something that this intelligent fictional species could definitely have naturally developed. I ultimately hope to have multiple languages for different species of my world, evolving from a common proto-language. I might be biting off more than I can chew for my first project here, but hey, why not give it a go!
 2. **It should be understandable and pronounceable by humans.** I mean, what's the point of a language if we can't speak it, right?
-3. **It should synergize with its speakers.** For example, see how Inuktitut has several different words for different types of snow. I hope to include things like idioms and cultural proverbs as I flesh out the speakers of the language through my worldbuilding. Since I'm trying to make my fantasy species distinct from human ethnicity as well, I don't want to make my language simply an amalgamation of natlangs either.
+3. **It should synergize with its speakers.** For example, see how Inuktut has several different words for different types of snow. I hope to include things like idioms and cultural proverbs as I flesh out the speakers of the language through my worldbuilding. Since I'm trying to make my fantasy species distinct from human ethnicity as well, I don't want to make my language simply an amalgamation of natlangs either.
 
 My personal end goal, and the point of this blog, is to create an understandable grammar for this conlang, a decent-sized lexicon (aka vocabulary) and hopefully integrate it into my worldbuilding along the way.
 

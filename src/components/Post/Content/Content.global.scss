@@ -1,0 +1,26 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  & > * {
+    width: 100%;
+    & + * {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+@include breakpoint-md {
+  .cols {
+    flex-direction: row;
+    & > * {
+      flex-grow: 1;
+    }
+  }
+}

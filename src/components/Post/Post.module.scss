@@ -2,36 +2,6 @@
 @import '../../assets/scss/mixins';
 
 .post {
-  &__content {
-    summary {
-      font-weight: 600;
-    }
-
-    ol, ul {
-      * {
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      li {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-      }
-    }
-
-    table, th, td {
-      border: 1px solid $color-gray-border;
-      border-collapse: collapse;
-    }
-
-    th, td {
-      padding: 0.5rem;
-    }
-
-    td {
-      vertical-align: top;
-    }
-  }
-
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
